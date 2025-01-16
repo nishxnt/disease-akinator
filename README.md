@@ -6,7 +6,9 @@ Overview
 The Disease Akinator leverages artificial intelligence to assist in preliminary medical diagnostics. It integrates:
 
   Web scraping: Collecting detailed disease and symptom data from the NHS website.
+  
   Data structuring: Utilizing LLMs (Llama 3.2-1B) to clean, simplify, and normalize symptom descriptions.
+  
   ID3 Decision Tree: Dynamically guiding users through symptom-based questions to narrow down potential diagnoses.
 
 1_web_scraping_links.py: Script to scrape disease names and links from the NHS conditions page.
